@@ -1,0 +1,120 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin:auto;
+    width: 700px;
+    background-color: darkgray;
+    color:white
+}
+.main{
+    border: 2px solid rgb(255, 255, 255);
+    margin:auto;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.756);
+    
+}
+.header{
+    display:flex;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-align: start;
+    padding-left:10px;
+    background-color: rgb(209, 101, 0);
+}
+.circle{
+    justify-content: flex-end;
+    border-radius: 50%;
+}
+.circle-1{
+    width:20px;
+    height:20px;
+    background-color: solid black;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    padding-left:40px;
+}
+.direct{
+    display:flex;
+    padding-left:20px;
+}
+.d-c{
+    display:flex;
+    border:2px solid rgb(255, 255, 255)
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:10;
+    width:200px;
+    
+}
+.but-1{
+    font-size:xx-large;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color:white
+}
+.but-2{
+    font-size:xx-large;
+    text-decoration: none;
+    color:white
+
+
+}
+nav a:hover:not(.nav-active) {
+    background-color: #ff660089; 
+}
+.nav-active{
+    font-weight: bold;
+    background-color: #ff6600; 
+    
+
+}
+.text{
+    display:flex;
+    border: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+form{
+    display:flex;
+    width: 700px;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.inner-form{
+    display:flex;
+    justify-content:center;
+    padding:5px;
+    font-size: large;
+    gap:20px;
+    
+}
+.inner-form{
+    display:flex;
+    justify-content: right;
+}
+.box-b{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding: 12px;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
